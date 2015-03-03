@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .visible {
+      visibility:visible !important;
+}
+    </style>
+  </head>
+  <body>
+    <svg width="600px" height="300px">
+      <image xlink:href="oslo2.png" width="512" height="256" x="20" y="20"/>
+	<circle cx="150" cy="170" r="20" style="fill:transparent; stroke:orange;" onclick="document.getElementById('oslo').classList.toggle('visible');" />
+    </svg>
+    <div id="oslo" style="visibility:hidden">
+      <h1>Oslo er pent</h1>
+      </div>
+  </body>
+</html>
