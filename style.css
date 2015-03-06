@@ -39,6 +39,7 @@ h1 {
     position: absolute;
     transition: transform 0.3s;
     animation: pulse 1s infinite linear;
+    animation-delay: 2s;
 }
 
 .marker:hover {
@@ -47,15 +48,19 @@ h1 {
 
 .marker> div {
     position: relative;
-    width: 200px;
+    width: 0px;
     opacity: 0;
     padding: 0;
-    transition: 1s 0.3s;
+    transition: 1s 0.8s;
+    white-space: nowrap;
+    overflow: hidden:
 }
 
 .marker:hover > div {
     transform: translate(80px);
+    transition: 1s 0.3s;
     opacity: 1;
+    width: 200px;
 }
 
 .marker > div li {
@@ -70,16 +75,21 @@ h1 {
 .marker > div li .drop {
     position: absolute;
     opacity: 0;
-    transition: 0.7s;
+    transition: transform 0.7s 0.8s, opacity 0.7s 0.8s, height 0.7s;
     z-index: -1;
     width: 300px;
     padding: 10px 5px;
     background: inherit;
+    height: 0;
+    overflow: hidden;
+    white-space: normal;
 }
 
 .marker > div li .drop.active {
+    transition: transform 0.7s, opacity 0.7s, height 0.7s 0.8s;
     transform: translate(200px);
     opacity: 1;
+    height: 200px;
 }
 
 
