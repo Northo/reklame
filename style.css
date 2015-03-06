@@ -6,13 +6,6 @@ lightOrange: #F38630;
 orange: #FA6900;
 */
 
-@font-face {
-    font-family: 'Ubuntu';
-    font-style: normal;
-    font-weight: narmal;
-    src: url('ubuntu-L.ttf') format('truetype');
-}
-
 @keyframes pulse {
     0% { transform: scale(1.1); }
     50% { transform: scale(0.9); }
@@ -22,7 +15,7 @@ orange: #FA6900;
 html {
     background: url("images/map.png") no-repeat left top;
     background-size: cover;
-    font-family: ubuntu;
+    font-family: Ubuntu;
 }
 
 body {
