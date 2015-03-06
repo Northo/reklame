@@ -5,14 +5,37 @@ beach: #E0E4CC;
 lightOrange: #F38630;
 orange: #FA6900;
 */
+
+html {
+    background: url("images/map.png") no-repeat left top;
+    background-size: cover;
+}
+
 body {
     margin-left: auto;
     margin-right: auto;
 }
 
-circle {
-    fill: transparent;
-    stroke: #69D2E7;
-    stroke-width: 3px;
-    cursor: pointer;
+.minor, .major {
+    box-shadow: 0 0 14px 1px;
+    position: absolute;
+}
+
+.minor {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #F38630;
+}
+
+.major {
+    width: 70px;
+    height: 70px;
+}
+
+.circle {
+    border-radius: 50%;
+}
+
+.square {
+    border-radius: 10% 50%;
 }
