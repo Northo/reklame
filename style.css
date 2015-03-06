@@ -77,7 +77,7 @@ h1 {
     opacity: 0;
     transition: transform 0.7s 0.8s, opacity 0.7s 0.8s, height 0.7s;
     z-index: -1;
-    width: 300px;
+    width: 0px;
     padding: 10px 5px;
     background: inherit;
     height: 0;
@@ -86,6 +86,7 @@ h1 {
 }
 
 .marker > div li .drop.active {
+    width: 300px;
     transition: transform 0.7s, opacity 0.7s, height 0.7s 0.8s;
     transform: translate(200px);
     opacity: 1;
