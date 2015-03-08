@@ -45,6 +45,17 @@ h1 {
     display: block;
 }
 
+.point .header {
+    text-shadow: 0px 0px 2px black;
+    background: white;
+    border-radius: 8px;
+    padding: 2px 20px;
+    width: 80px;
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 .point> div {
     position: absolute;
