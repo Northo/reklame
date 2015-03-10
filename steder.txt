@@ -1,0 +1,17 @@
+Navn
+100px
+300px
+up
+spm
+svar
+spm
+svar
+--
+Navn2
+300px
+300px
+u
+hva
+hunt
+hvordan
+fordi
