@@ -1,17 +1,54 @@
-Navn
+Frognerparken
 100px
 300px
-up
-spm
-svar
-spm
-svar
+
+Hva er Frognerparken?
+Frognerparken er Oslos mest besøkte severdighet, den inneholder Oslos bymuseum, Frognerdammen, Frognerbadet og Vigelandsparken. Om sommeren er parken vakker og grønn, full av blomster og planter. En tur til Oslo er ikke komplett uten et besøk i Frognerparken!
+Hva er historien bak?
+Frognerparken var en del av den gamle Akergården Frogner Hovedgård frem til 1840 da den ble gjort om til en romantisk landskapspark. Det meste av Frognerparken er i dag kun landskapspark, men i midten er den flotte Vigelandsparken full av skulpturer av billedhuggeren Gustav Vigeland.
+Hvordan kommer jeg meg til Frognerparken?
+Den enkleste måten er å ta T-banen til Majorstuen og deretter ta trikk 12 mot Disen og gå av på Vigelandsparken stoppet. <br /> Alle banene stopper på Majorstuen, så du må bare finne den nærmeste T-bane stasjonen der du bor.<img src="images/frognerparken.jpg" />
 --
-Navn2
+Oslo Domkirke
 300px
-300px
-u
-hva
-hunt
-hvordan
-fordi
+100px
+
+Hva er Oslo Domkirke?
+Oslo domkirke, tidligere Vår Frelsers kirke er en korskirke som ligger ved Stortorvet i Oslo. Den har vært et kulturelt sentrum i Oslo i hundrevis av år og er sentrum av det kristne miljøet i Oslo. Kirken er også landets rikskirke, som betyr at den benyttes av kongefamilien til ting som begravelser og bryllup.
+Hva er historien bak?
+Oslo domkirke er den tredje domkirken i Oslos historie, den sto ferdig i 1697. I 1950 skiftet den navn fra Vår Frelsers kirke til Oslo domkirke. Kirken inneholder skulpturer og figurer fra de gamle kirkene som går så langt tilbake som år 1100. 
+Hvordan kommer jeg meg til Oslo Domkirke?
+Det enkleste er å ta T-banen til Stortinget og gå de få hundre meterne til Stortorvet. <br /> Alle banene stopper på Stortinget, så du må bare finne den nærmeste T-bane stasjonen der du bor.<img src="images/domkirke.jpg" />
+--
+Slottsparken og Det Kongelige Slott
+200px
+400px
+up
+Hva er Slottsparken?
+Slottsparken er Oslos sentrale bypark. Den omgir Det Kongelige slott. Slottsparken er nøye forvaltet og om sommeren er den vakker og grønn. I blant kan man finne kunstutstillinger i parken, men vanligvis er parken en rolig øy i det travle bymiljøet.
+Hva er Det Kongelige slott?
+Det Kongelige slottet er residensen til den Norske Kongen, det ligger i enden av Karl Johans gate og er godt synlig fra alle kanter. Slottet er vanligvis stengt, men i sommermånedene åpnes deler av slottet for publikum. 
+Hva er slottets historie?
+Slottet ble reist for kong Karl III Johan av Sverige og Norge, men sto ikke ferdig før i 1849 under Oscar I. Frem til 1905 var slottet i lite bruk, men etter at Norge fikk egen konge i 1905 ble det permanent boplass for kongefamilien. Slottet ble renovert i 1990.
+Hvordan kommer jeg meg til slottet?
+Det korteste er å ta T-banen til Nasjonalteateret og gå. <br /> Alle banene stopper på Nasjonalteateret, så du må bare finne den nærmeste T-bane stasjonen der du bor.<img src="images/slottet.jpg" />
+--
+Rådhuset og Rådhusplassen
+500px
+100px
+
+Hva er Rådhuset?
+Rådhuset er sentrum for byrådet og bystyret, og som fungerer som et symbolsk sentrum for Oslo. Rådhuset er vanligvis stengt for publikum, men brukes til arrangementer som utdelingen av Nobels Fredspris, vielser og konfirmasjoner. Foran rådhuset ligger Fridtjof Nansens plass, bak rådhuset, ut mot fjorden, ligger rådhusplassen. Rådhuset fungerer ofte som symbolet for Oslo.
+Historien til Rådhuset
+Rådhuset ble bygget fra 1931-1950 og er tegnet av Arnstein Arneberg og Magnus Poulsson. Bygningen er dekorert av en rekke kunstnere med et fokus på gammelnorsk historie.
+Hvordan kommer jeg meg til Rådhuset?
+Det korteste er å ta T-banen til Stortinget og gå ut mot fjorden. <br /> Alle banene stopper på Stortinget, så du må bare finne den nærmeste T-bane stasjonen der du bor.<img src="images/rådhus.jpg" />
+--
+Akershus festning
+1000px
+600px
+left up
+Hva er Akershus festning?
+Akershus festning er en festning som tidligere beskyttet Oslo mot invasjoner via vannet. Akershus festning kan tilby en omvisning i slottet og festningen hvor man lærer litt om historien. 
+Hvordan kommer jeg meg til Akershus festning?
+Nærmeste t-banestopp er Stortinget som det tar 17 minutter å gå fra. Nærmeste trikkeholdeplass er Kongens Gate via trikk nr. 19
