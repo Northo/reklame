@@ -25,6 +25,14 @@ body {
     overflow: hidden; //fixes problem with pulse anim
 }
 
+::selection {
+    background: red;
+}
+
+::-moz-selection {
+    background: none;
+}
+
 h1 {
     margin: 0;
     padding: 2px 10px;
@@ -37,6 +45,10 @@ h1 {
 .point {
     position: absolute;
     transition: transform 0.3s;
+}
+
+.point:hover {
+    z-index: 10;
 }
 
 .marker {
@@ -54,7 +66,6 @@ h1 {
     padding: 0;
     transition: 1s 0.8s;
     white-space: nowrap;
-    //overflow: hidden;
 }
 
 .point:hover > div {
@@ -68,19 +79,17 @@ h1 {
     transition: transform 1s;
     background: #e0e4cc;
     white-space: normal;
+    position: relative;
 }
 
-.point.left > div li {
-    transform: translate(-300px);
-}
-
-.point > div li:hover {
+.point.left:hover > div {
+    transform: translate(-200px);
 }
 
 .point > div li .drop {
     position: absolute;
     opacity: 0;
-    transition: transform 0.7s 0.8s, opacity 0.7s 0.8s, height 0.7s, width 0s 2s;
+    transition: left 0.7s 0.8s, right 0.7s 0.8s, opacity 0.7s 0.8s, height 0.7s, width 0s 2s;
     z-index: -1;
     width: 0px;
     padding: 10px 5px;
@@ -88,18 +97,30 @@ h1 {
     height: 0;
     overflow: hidden;
     white-space: normal;
+    top: 0;
+    left: 0;
 }
 
 .point.left > div li .drop {
-    transform: translate(-310px) !important;
+    left: auto !important;
+    right: 0;
+}
+
+.point.left > div li .drop.active {
+    right: 200px;
+}
+
+.point.up > div li .drop {
+    top: auto !important;
+    bottom: 0;
 }
 
 .point > div li .drop.active {
     width: 300px;
-    transition: transform 0.7s, opacity 0.7s, height 0.7s 0.8s;
-    transform: translate(200px);
+    transition: left 0.7s, right 0.7s, opacity 0.7s, height 0.7s 0.8s;
     opacity: 1;
     height: 200px;
+    left: 200px;
 }
 
 
