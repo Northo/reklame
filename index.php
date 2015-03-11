@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <title>Utforsk Oslo</title>
     <link rel="stylesheet" type="text/css" href="style.css" />
     <link href='http://fonts.googleapis.com/css?family=Ubuntu:300' rel='stylesheet' type='text/css'>
     <script>
