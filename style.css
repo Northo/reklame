@@ -68,17 +68,19 @@ h1 {
 .point> div {
     position: absolute;
     top: 0;
-    width: 200px;
+    width: 0px;
     opacity: 0;
     padding: 0;
     transition: 1s 0.8s;
     white-space: nowrap;
+    transition: width 0s 0.3s, transform 0.3s, opacity 0.3s !important;
 }
 
 .point:hover > div {
     transform: translate(80px);
-    transition: 1s 0.3s;
+    transition: width 0s, transform 0.3s !important;
     opacity: 1;
+    width: 200px;
 }
 
 .point > div li {
