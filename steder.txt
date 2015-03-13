@@ -10,8 +10,8 @@ Hvordan kommer jeg meg til Frognerparken?
 Den enkleste måten er å ta T-banen til Majorstuen og deretter ta trikk 12 mot Disen og gå av på Vigelandsparken stoppet. <br /> Alle banene stopper på Majorstuen, så du må bare finne den nærmeste T-bane stasjonen der du bor.<img src="images/frognerparken.jpg" />
 --
 Oslo Domkirke
-600px
-320px
+660px
+360px
 
 Hva er Oslo Domkirke?
 Oslo domkirke, tidligere Vår Frelsers kirke er en korskirke som ligger ved Stortorvet i Oslo. Den har vært et kulturelt sentrum i Oslo i hundrevis av år og er sentrum av det kristne miljøet i Oslo. Kirken er også landets rikskirke, som betyr at den benyttes av kongefamilien til ting som begravelser og bryllup.
@@ -21,8 +21,8 @@ Hvordan kommer jeg meg til Oslo Domkirke?
 Det enkleste er å ta T-banen til Stortinget og gå de få hundre meterne til Stortorvet. <br /> Alle banene stopper på Stortinget, så du må bare finne den nærmeste T-bane stasjonen der du bor.<img src="images/domkirke.jpg" />
 --
 Slottsparken og Det Kongelige Slott
-420px
-250px
+480px
+260px
 up
 Hva er Slottsparken?
 Slottsparken er Oslos sentrale bypark. Den omgir Det Kongelige slott. Slottsparken er nøye forvaltet og om sommeren er den vakker og grønn. I blant kan man finne kunstutstillinger i parken, men vanligvis er parken en rolig øy i det travle bymiljøet.
@@ -34,8 +34,8 @@ Hvordan kommer jeg meg til slottet?
 Det korteste er å ta T-banen til Nasjonalteateret og gå. <br /> Alle banene stopper på Nasjonalteateret, så du må bare finne den nærmeste T-bane stasjonen der du bor.<img src="images/slottet.jpg" />
 --
 Rådhuset og Rådhusplassen
-490px
-326px
+530px
+350px
 
 Hva er Rådhuset?
 Rådhuset er sentrum for byrådet og bystyret, og som fungerer som et symbolsk sentrum for Oslo. Rådhuset er vanligvis stengt for publikum, men brukes til arrangementer som utdelingen av Nobels Fredspris, vielser og konfirmasjoner. Foran rådhuset ligger Fridtjof Nansens plass, bak rådhuset, ut mot fjorden, ligger rådhusplassen. Rådhuset fungerer ofte som symbolet for Oslo.
@@ -45,8 +45,8 @@ Hvordan kommer jeg meg til Rådhuset?
 Det korteste er å ta T-banen til Stortinget og gå ut mot fjorden. <br /> Alle banene stopper på Stortinget, så du må bare finne den nærmeste T-bane stasjonen der du bor.<img src="images/rådhus.jpg" />
 --
 Akershus festning
-500px
-400px
+550px
+440px
 left up
 Hva er Akershus festning?
 Akershus festning er en festning som tidligere beskyttet Oslo mot invasjoner via vannet. Akershus festning kan tilby en omvisning i slottet og festningen hvor man lærer litt om historien. 
