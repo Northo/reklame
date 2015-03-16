@@ -26,9 +26,9 @@ $file = file("steder.txt", FILE_IGNORE_NEW_LINES);
 $i = 0;
 for($count = 0; $count < count($file); ){
   if($i == 0) {
-    echo '<div class="point major ' . $file[$count+3] . '" style="left: ' . $file[$count+1] . '; top: ' . $file[$count+2] . ';">' . "\n";
+    echo '<div class="point major ' . $file[$count+4] . '" style="left: ' . $file[$count+2] . '; top: ' . $file[$count+3] . ';">' . "\n";
     echo '<span class="marker major circle"></span>' . "\n<div>\n<ul>\n";
-    $count += 4;
+    $count += 5;
     $i++;
   }
   echo "<li>" . $file[$count] . "</li>\n";

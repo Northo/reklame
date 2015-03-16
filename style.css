@@ -83,6 +83,16 @@ h1 {
     transition: width 0s 0.3s, height 0s 0.3s, transform 0.3s, opacity 0.3s !important;
 }
 
+.point .image {
+    position: absolute;
+    left: 0;
+}
+
+.point.up > div .picture {
+    bottom: auto !important;
+    top: 0;
+}
+
 .point:hover > div {
     transform: translate(80px);
     transition: width 0s, height 0s, transform 0.3s !important;
