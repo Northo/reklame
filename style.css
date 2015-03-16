@@ -19,8 +19,6 @@ orange: #FA6900;
 }
 
 html {
-    background: url("images/map.png") no-repeat left top;
-    background-size: cover;
     font-family: Ubuntu;
 }
 
@@ -28,11 +26,16 @@ body {
     margin-left: auto;
     margin-right: auto;
     margin: 0;
-    overflow: hidden; //fixes problem with pulse anim
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+#map {
+    width: 1500px;
 }
 
 ::selection {
-    background: red;
+    background: none;
 }
 
 ::-moz-selection {
@@ -46,6 +49,9 @@ h1 {
     box-shadow: 0 0 10px -2px;
     font-family: Ubuntu;
     font-weight: normal;
+    width: 100%;
+    position: absolute;
+    top: 0;
 }
 
 .point {

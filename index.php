@@ -18,6 +18,7 @@
     </script>
   </head>
   <body onload="events()">
+    <img id="map" src="images/map.png" />
     <h1>Utforsk Oslo</h1>
     <?php
 $file = file("steder.txt", FILE_IGNORE_NEW_LINES);
