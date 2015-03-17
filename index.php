@@ -15,11 +15,18 @@
 	    }
 	}
     }
+
+    function loadImage(image) {
+        document.getElementById("image").children[0].attributes[0].value = image;
+    }
     </script>
   </head>
-  <body onload="events()">
+  <body onload="events()">drop
     <img id="map" src="images/map.png" />
     <h1>Utforsk Oslo</h1>
+    <div id="image">
+      <img src="" />
+    </div>
     <?php
 $file = file("steder.txt", FILE_IGNORE_NEW_LINES);
 
@@ -27,7 +34,7 @@ $i = 0;
 for($count = 0; $count < count($file); ){
   if($i == 0) {
     echo '<div class="point major ' . $file[$count+4] . '" style="left: ' . $file[$count+2] . '; top: ' . $file[$count+3] . ';">' . "\n";
-    echo '<span class="marker major circle"></span>' . "\n<div>\n<ul>\n";
+    echo '<span class="marker major circle" onmouseover="loadImage(\'' . $file[$count+1] . '\');"></span>' . "\n<div>\n<ul>\n";
     $count += 5;
     $i++;
   }

@@ -30,6 +30,23 @@ body {
     overflow-x: hidden;
 }
 
+#image {
+    width: 200px;
+    height: 175px;
+    position: absolute;
+    right: -160px; /*Width minus sneek peek*/
+    top: 100px;
+    transition: 0.8s;
+}
+
+#image:hover {
+    transform: translate(-160px);
+}
+
+#image img{
+    width: 100%;
+}
+
 #map {
     width: 1500px;
 }
