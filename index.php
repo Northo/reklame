@@ -20,13 +20,14 @@
         var img = document.getElementById("image");
 	img.children[0].attributes[0].value = image;
 	(img.children[0].width / img.children[0].height > 1) ? img.classList.add("wide") : img.classList.remove("wide");
+	img.classList.remove("inactive");
     }
     </script>
   </head>
-  <body onload="events()">drop
+  <body onload="events()">
     <img id="map" src="images/map.png" />
     <h1>Utforsk Oslo</h1>
-    <div id="image">
+    <div id="image" class="inactive">
       <img src="" />
     </div>
     <?php

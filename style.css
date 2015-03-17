@@ -30,10 +30,14 @@ body {
     overflow-x: hidden;
 }
 
+#image.inactive {
+    transform: translate(100px);
+}
+
 #image {
     width: 200px;
     height: 300x;
-    position: absolute;
+    position: fixed;
     right: -160px; /*Width minus sneek peek*/
     top: 100px;
     transition: transform 0.8s;
