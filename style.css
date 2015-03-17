@@ -126,6 +126,9 @@ h1 {
     white-space: normal;
     top: 0;
     left: 0;
+    border: 1px solid black;
+    border-radius: 5px;
+    border-top-left-radius: 0;
 }
 
 .point > div li + .drop img {
@@ -139,15 +142,24 @@ h1 {
 .point.left > div li + .drop {
     left: auto !important;
     right: 0;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 0;
 }
 
 .point.left > div li + .drop.active {
     right: 200px;
 }
 
+.point.left.up > div li + .drop {
+    border-radius: 5px;
+    border-bottom-right-radius: 0;
+}
+
 .point.up > div li + .drop {
     top: auto !important;
     bottom: 0;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 0;
 }
 
 .point > div li + .drop.active {
