@@ -32,19 +32,29 @@ body {
 
 #image {
     width: 200px;
-    height: 175px;
+    height: 300x;
     position: absolute;
     right: -160px; /*Width minus sneek peek*/
     top: 100px;
-    transition: 0.8s;
+    transition: transform 0.8s;
 }
 
 #image:hover {
-    transform: translate(-160px);
+    transform: translate(-164px);
+}
+
+#image.wide {
+    width: 300px;
+    right: -260px;
+}
+
+#image.wide:hover {
+    transform: translate(-264px);
 }
 
 #image img{
     width: 100%;
+    border: 2px solid black;
 }
 
 #map {

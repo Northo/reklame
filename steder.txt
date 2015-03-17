@@ -49,7 +49,7 @@ Hvordan kommer jeg meg til Rådhuset?
 Det korteste er å ta T-banen til Stortinget og gå ut mot fjorden. <br /> Alle banene stopper på Stortinget, så du må bare finne den nærmeste T-bane stasjonen der du bor.
 --
 Akershus festning
-image
+images/festning.jpg
 550px
 440px
 left up

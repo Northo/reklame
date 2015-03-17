@@ -17,7 +17,9 @@
     }
 
     function loadImage(image) {
-        document.getElementById("image").children[0].attributes[0].value = image;
+        var img = document.getElementById("image");
+	img.children[0].attributes[0].value = image;
+	(img.children[0].width / img.children[0].height > 1) ? img.classList.add("wide") : img.classList.remove("wide");
     }
     </script>
   </head>
